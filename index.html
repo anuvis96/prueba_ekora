@@ -13,49 +13,70 @@
   </header>
 
   <main>
-    <section class="descripcion">
-      <h1>Nuevo Curso en Ékora</h1>
-      <p>Domina las herramientas digitales clave y mejora tus oportunidades profesionales con nuestro nuevo curso intensivo.</p>
-    </section>
-
-    <section class="beneficios">
-      <h2>¿Qué obtendrás?</h2>
-      <ul>
-        <li>Clases prácticas y enfocadas al mercado laboral</li>
-        <li>Acceso a recursos exclusivos</li>
-        <li>Certificado avalado por expertos</li>
-      </ul>
-    </section>
+    <section id="descripcion">
+      <h2>¿De qué trata este curso?</h2>
+      <p>
+        En Ékora lanzamos un nuevo curso pensado especialmente para jóvenes entre 14 y 25 años que desean
+        desarrollar habilidades digitales de forma práctica y creativa. Este curso te llevará desde los fundamentos del diseño web hasta la creación de tus propios proyectos reales.
+      </p>
+      <p>
+        Aprenderás conceptos clave de diseño UX/UI, desarrollo front-end con HTML, CSS y JavaScript, y dominarás herramientas modernas que usan las startups más innovadoras.
+        ¡Todo sin frameworks, para que comprendas a fondo cómo funciona la web!
+      </p>
+    
 
     <section class="video">
         <h2>Conoce más en este video</h2>
         <div class="video-container">
-          <iframe
-            src="https://www.youtube.com/embed/VIDEO_ID"
-            title="Video informativo del curso"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tPnFP8q4S5k?si=Q5NcBpG09c2BYjt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </section>
 
-    <section class="formulario">
-      <h2>Inscríbete ahora</h2>
-      <form id="registro" aria-label="Formulario de inscripción">
-        <label for="nombre">Nombre completo</label>
-        <input type="text" id="nombre" name="nombre" required aria-required="true" />
+      <section id="beneficios">
+        <h2>Beneficios de inscribirte</h2>
+        <ul>
+          <li>Acceso 100% gratuito durante el lanzamiento</li>
+          <li>Clases interactivas y materiales descargables</li>
+          <li>Proyectos reales para tu portafolio</li>
+          <li>Mentorías en vivo con expertos del equipo Ékora</li>
+          <li>Certificado digital al finalizar</li>
+          <li>Comunidad activa de estudiantes y profesionales</li>
+          <li>Enfoque práctico orientado a empleabilidad digital</li>
+        </ul>
+      </section>
+
+      <p><strong>¿Listo para empezar? Regístrate ahora y forma parte de la nueva generación de creadores digitales en Ékora.</strong></p>
+
+
+      <section id="inscripcion" class="fondo-formulario">
+        <h2 class="titulo-formulario">Inscríbete al Curso</h2>
       
-        <label for="correo">Correo electrónico</label>
-        <input type="email" id="correo" name="correo" required aria-required="true" />
+        <div class="formulario-centrado">
+          <form id="registro" aria-label="Formulario de inscripción">
+            <div class="form-group">
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" id="telefono" name="telefono" placeholder="Teléfono Celular (opcional)" />
+            </div>
+            <button type="submit">Comienza Ahora</button>
+          </form>
+        </div>
       
-        <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" name="telefono" aria-describedby="telefonoHelp" />
-        <small id="telefonoHelp">Opcional, solo números.</small>
+        <div id="usuariosGuardados" aria-live="polite"></div>
+      </section>
       
-        <button type="submit">Enviar inscripción</button>
-      </form>
       
-    </section>
+
+        
+        
+      
+       
+      
+      
   </main>
 
   <footer>
